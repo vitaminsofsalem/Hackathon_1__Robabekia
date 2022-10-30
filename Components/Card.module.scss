@@ -1,0 +1,75 @@
+.grid__item {
+    display: flex;
+    grid-row-start: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    background-color: rgb(92, 60, 45);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    transform: scale(1);
+    transition: all 200ms ease-in-out;
+  }
+  
+  .grid__item:hover  {
+    transform: scale(1.02);
+  }
+
+  .grid__item:hover .btn__add_to_cart {
+    border: 1px solid transparent;
+    background: rgb(237, 230, 219, 0.5);
+  }
+
+  .btn__add_to_cart {
+    display: flex;
+    border: 1px solid var(--color-primary);
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background: transparent;
+    height: 3.5rem;
+    width: 8rem;
+    color: var(--color-primary);
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+  }
+  
+.card__img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    border-radius: 0.25rem;
+    padding: 1rem 0 0 0;
+  }
+  
+  .card__content_container {
+    display: flex;
+    width: 80%;
+    gap: 0rem;
+    color: var(--color-primary);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0rem 2rem 0rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  
+  .price {
+    font-size: 1rem;
+    font-weight: 800;
+    
+  }
+  
+  .card__footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }

@@ -1,0 +1,240 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 2rem;
+}
+
+.section__container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  padding: 0 3rem 4rem 3rem;
+}
+
+.btn__grp {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.learn_more {
+  display: flex;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  background: transparent;
+  height: 4rem;
+  width: 10rem;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.learn_more:hover {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid transparent;
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+
+.header {
+  display: block;
+  font-family: "Abhaya Libre", serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 0rem;
+}
+
+.header::first-letter {
+  font-size: 5rem;
+}
+
+.header__text {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.right > img {
+  width: 95%;
+  height: 90%;
+}
+
+.btn__action {
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  background: transparent;
+  height: 4rem;
+  width: 10rem;
+  background: var(--color-secondary);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn__action:hover {
+  transition: all 0.3s ease-in-out;
+  background: rgb(61, 90, 60);
+}
+
+
+// Product Carousel Section
+
+.product__sample {
+  display: flex;
+  color: var(--color-primary);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 100vw;
+  background: linear-gradient(-135deg, rgb(122, 82, 62) 0%, rgba(92,62,47,1) 100%);
+
+}
+
+.grid__container {
+  display: grid;
+  padding: 3rem;
+  gap: 0 2rem;
+  grid-template-columns:  repeat(3, 1fr);
+  z-index: 2;
+
+}
+
+.product_header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.small_text,
+.h_1 {
+  margin: 0.25rem;
+  padding: 0;
+  font-weight: 800;
+}
+
+.small_text {
+  font-size: 0.75rem;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////     HOW IT WORKS SECTION     //////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.how__it__works {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5rem;
+  height: 700px;
+  width: 100vw;
+  background: var(--color-secondary);
+}
+
+
+.works__img {
+  width: 40%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.works__text_container {
+  align-self: flex-end;
+  margin-bottom: 3.8rem;
+  height: 50%;
+  width: 35%;
+}
+
+.works__h1,
+.works__h2 {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.works__h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.works__h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////     Contact Form Section     //////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.contact__form {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 100vw;
+}
+
+.contact__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.contact__right {
+  display: flex;
+  padding: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.contact__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}

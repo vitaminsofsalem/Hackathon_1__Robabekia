@@ -1,0 +1,34 @@
+.container,
+.container::selection {
+    display: flex;
+    background: transparent;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    height: 3.5rem;
+    width: 8rem;
+    padding: 0.25rem;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.increment,
+.increment::selection {
+    cursor: pointer;
+    background: transparent;
+    font-weight: 200;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.decrement,
+.decrement::selection {
+    cursor: pointer;
+    background: transparent;
+    font-weight: 200;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}

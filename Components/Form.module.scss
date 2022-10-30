@@ -1,0 +1,75 @@
+.header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header {
+    display: block;
+    font-family: "Abhaya Libre", serif;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.small__header {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Abhaya Libre", serif;
+    font-size: 1.5rem;
+}
+
+.contact__form {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.contact__label {
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact__input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    background: transparent;
+    height: 2.8rem;
+}
+
+.btn__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background: transparent;
+    height: 4rem;
+    width: 100%;
+    background: #000;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn__submit:hover {
+    transition: all 0.3s ease-in-out;
+    border: 1.5px solid #000;
+    background: transparent;
+    color: #000;
+  }
