@@ -1,34 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Robabekia Inventory Management
 
-## Getting Started
+**Robabekia** is a web-based inventory management system developed as a hackathon project. It is designed to help small-scale vendors and second-hand markets efficiently manage their inventory, keeping track of stock levels, item details, and other essential information.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Add Items**: Easily add new inventory items with details such as name, quantity, and description.
+- **Update Stock**: Modify existing inventory to reflect changes in stock levels.
+- **View Inventory**: Access a detailed list of all items in the inventory with relevant details.
+- **Interactive UI**: A user-friendly interface built for simplicity and ease of use.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Technologies Used
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **Frontend**:
+  - HTML
+  - CSS
+  - JavaScript
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Installation and Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Follow these steps to run the project locally:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/vitaminsofsalem/Hackathon_1__Robabekia.git
+   cd Hackathon_1__Robabekia
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies** (if applicable):
+   - Navigate to the backend or frontend directories (if separated) and install the required dependencies using:
+     ```bash
+     npm install
+     ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Run the application**:
+   - Start the development server with:
+     ```bash
+     npm start
+     ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Access the application**:
+   - Open your browser and navigate to:
+     ```
+     http://localhost:3000
+     ```
+
+---
+
+## Usage
+
+1. **Adding Items**:
+   - Navigate to the `Add Items` section.
+   - Enter the item name, quantity, and description, then submit.
+
+2. **Updating Inventory**:
+   - Locate the item to update.
+   - Click on the `Edit` button, modify the details, and save.
+
+3. **Viewing Inventory**:
+   - Browse the inventory table to see all items and their details.
+
+---
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
+
+---
+
+## Youtube Video of project
+
+[Click Here](https://youtu.be/ldfmJiob_Do)
